@@ -28,10 +28,12 @@ residual. Terms interact, so ablating one at a time is necessary but not suffici
 Seventeen families of sequence and dynamical-systems methods, each with its enabling
 condition and the concrete case where it fails. Benchmarks age; preconditions do not.
 
-**[polymarket-calibration](https://github.com/shirleyshen0106/polymarket-calibration)** &nbsp;·&nbsp; a reliability study that mostly reports what cannot be concluded
+**[polymarket-calibration](https://github.com/shirleyshen0106/polymarket-calibration)** &nbsp;·&nbsp; are market prices calibrated probabilities?
 
-202 resolved markets. The flattering aggregate is carried by longshots: half of all
-quotes sit below 5%, so no probability band is testable in a one-month window.
+16,759 resolved markets, 36,814 quote–outcome pairs across two tiled weeks. Away from even
+odds, prices are too extreme: 5–35% resolve Yes more often than quoted, 65–95% less often.
+Withdrawn twice and rebuilt, both times after I found truncation in my own harvester; the
+corrections are dated in the README rather than quietly patched.
 
 ---
 
